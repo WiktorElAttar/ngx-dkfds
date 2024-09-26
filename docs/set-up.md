@@ -15,3 +15,7 @@
     - `angular-eslint`
 
     At this point `eslint` is only installed in *root workspace* and it is not used by projects.
+
+6. Run `ng generate @angular-eslint/schematics:add-eslint-to-project ngx-dkfds` to add `eslint` to `ngx-dkfds` project.
+From now you can run `ng lint` command.
+This steps also adds `eslint.config.js` with `eslint` config.
