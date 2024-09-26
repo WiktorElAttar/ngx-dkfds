@@ -23,3 +23,7 @@ This steps also adds `eslint.config.js` with `eslint` config.
 7. Run `ng generate @angular-eslint/schematics:add-eslint-to-project playground` to do the same for `playground` project.
 
     `ng lint` will now lint both projects.
+
+8. Set `type` to `module` in `package.json` to support ESM imports in `eslint.config.json`.
+
+    I should have done this at the beginning.
