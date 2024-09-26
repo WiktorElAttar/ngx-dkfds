@@ -7,3 +7,11 @@
 3. Run `ng generate application playground --style scss` command to create `playground` application.
 
 4. Update root `tsconfig.json` with strict compiler options.
+
+5. Run `ng add @angular-eslint/schematics` command to setup eslint. It will install all required dependencies:
+
+    - `eslint`
+    - `typescript-eslint`
+    - `angular-eslint`
+
+    At this point `eslint` is only installed in *root workspace* and it is not used by projects.
