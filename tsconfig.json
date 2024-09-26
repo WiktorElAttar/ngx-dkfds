@@ -11,6 +11,11 @@
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "isolatedModules": true,
+    "paths": {
+      "ngx-dkfds": [
+        "./dist/ngx-dkfds"
+      ]
+    },
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": false,
