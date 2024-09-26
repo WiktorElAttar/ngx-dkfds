@@ -1,6 +1,8 @@
 // @ts-check
 import { config, configs as tsConfigs } from "typescript-eslint";
 import { configs as angularConfigs, processInlineTemplates } from "angular-eslint";
+import eslintConfigPrettier from "eslint-config-prettier";
+
 
 export default config(
   {
@@ -45,5 +47,6 @@ export default config(
       ...angularConfigs.templateAccessibility,
     ],
     rules: {},
-  }
+  },
+  eslintConfigPrettier
 );

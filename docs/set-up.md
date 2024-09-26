@@ -41,3 +41,5 @@ This steps also adds `eslint.config.js` with `eslint` config.
 11. Configure `.pretterrc` and `.prettierignore`.
 
     It is recommented to keep `.gitignore` and `.prettierignore` in sync.
+
+12. Run `npm install --save-dev eslint-config-prettier` command to install intergration between `prettier` and `eslint`.
