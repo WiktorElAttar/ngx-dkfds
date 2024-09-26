@@ -4,4 +4,6 @@
 
 2. Run `ng generate library ngx-dkfds --prefix fds` command to create `ngx-dkfds` library with `fds` prefix for selectors.
 
-3. Run `ng generate application playground --style scss` command to creade `playground` application.
+3. Run `ng generate application playground --style scss` command to create `playground` application.
+
+4. Update root `tsconfig.json` with strict compiler options.
