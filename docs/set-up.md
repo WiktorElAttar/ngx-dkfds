@@ -19,3 +19,7 @@
 6. Run `ng generate @angular-eslint/schematics:add-eslint-to-project ngx-dkfds` to add `eslint` to `ngx-dkfds` project.
 From now you can run `ng lint` command.
 This steps also adds `eslint.config.js` with `eslint` config.
+
+7. Run `ng generate @angular-eslint/schematics:add-eslint-to-project playground` to do the same for `playground` project.
+
+    `ng lint` will now lint both projects.
