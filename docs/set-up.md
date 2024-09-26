@@ -31,3 +31,13 @@ This steps also adds `eslint.config.js` with `eslint` config.
 9. Set `typescript-eslint` rules to utilize the awesome power of TypeScript's type checking APIs to provide much deeper insights into your code.
 
     Done based on https://typescript-eslint.io/getting-started/typed-linting/.
+
+10. Install `prettier` by running following commands:
+
+    - `npm install --save-dev --save-exact prettier`
+    - `node --eval "fs.writeFileSync('.prettierrc','{}\n')"`
+    - `node --eval "fs.writeFileSync('.prettierignore','# Ignore artifacts:\nbuild\ncoverage\n')"`
+
+11. Configure `.pretterrc` and `.prettierignore`.
+
+    It is recommented to keep `.gitignore` and `.prettierignore` in sync.
