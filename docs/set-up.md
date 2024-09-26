@@ -27,3 +27,7 @@ This steps also adds `eslint.config.js` with `eslint` config.
 8. Set `type` to `module` in `package.json` to support ESM imports in `eslint.config.json`.
 
     I should have done this at the beginning.
+
+9. Set `typescript-eslint` rules to utilize the awesome power of TypeScript's type checking APIs to provide much deeper insights into your code.
+
+    Done based on https://typescript-eslint.io/getting-started/typed-linting/.

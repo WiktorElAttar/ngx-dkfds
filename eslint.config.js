@@ -6,8 +6,16 @@ export default config(
   {
     files: ["**/*.ts"],
     extends: [
-      ...tsConfigs.recommended,
-      ...tsConfigs.stylistic,
+      ...tsConfigs.strictTypeChecked,
+      ...tsConfigs.stylisticTypeChecked,
+      {
+        languageOptions: {
+          parserOptions: {
+            projectService: true,
+            tsconfigRootDir: import.meta.dirname,
+          },
+        },
+      },
       ...angularConfigs.tsRecommended,
     ],
     processor: processInlineTemplates,
