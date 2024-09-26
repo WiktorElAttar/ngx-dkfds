@@ -8,9 +8,8 @@ describe('NgxDkfdsComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [NgxDkfdsComponent]
-    })
-    .compileComponents();
+      imports: [NgxDkfdsComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(NgxDkfdsComponent);
     component = fixture.componentInstance;

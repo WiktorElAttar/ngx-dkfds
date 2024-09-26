@@ -1,9 +1,14 @@
 import { Injectable } from '@angular/core';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class NgxDkfdsService {
+  constructor() {
+    this.sayHello();
+  }
 
-  constructor() { }
+  private sayHello(): void {
+    console.log('Hello World!');
+  }
 }
