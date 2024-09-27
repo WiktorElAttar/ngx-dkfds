@@ -3,3 +3,7 @@
 ## CI
 
 1. Add `test:ci` script in `package.json` to run tests inside pipeline.
+
+2. Generate `angular-ci.yml` pipeline.
+In build part, you need to specify project to build.
+You cannot run build on workspace
