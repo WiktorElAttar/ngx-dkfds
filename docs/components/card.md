@@ -1,0 +1,98 @@
+# Card
+
+Cards are used as a visual demarcation of content or interaction elements that deal with the same subject.
+
+Design System: https://designsystem.dk/komponenter/cards/
+
+## Usage
+
+`fds-card` component is based on content projection using `ng-content`. All card sections are `ng-content` with one of the following selector:
+
+    - `contentTop` - Content that will projected at the top of the card, above the header
+    - `header`
+    - `subHeader`
+    - `text`
+    - `content`
+    - `actionButtons`
+    - `actionLinks`
+
+This approach ensures structure of a `Card`, but gives consumer a freedom to project any content.
+
+### Example usage:
+
+```HTML
+<div class="container">
+  <fds-card>
+    <div contentTop>
+      <div class="align-text-center background-data-green-blue-300 p-6" style="background-color: aquamarine">
+        <h4 class="h5 mb-5">Lorem ipsum fordeling</h4>
+        <div class="mt-3 row">
+          <div class="col-6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-percent-30 w-percent-md-70" viewBox="0 0 50 100">
+              <rect width="50" height="100" fill="#eefafa" />
+              <rect y="20" width="50" height="80" fill="#0868AC" />
+            </svg>
+            <span class="small-text mt-2 bold d-block">København</span>
+          </div>
+          <div class="col-6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-percent-30 w-percent-md-70" viewBox="0 0 50 100">
+              <rect width="50" height="100" fill="#eefafa" />
+              <rect y="64" width="50" height="36" fill="#0868AC" />
+            </svg>
+            <span class="small-text mt-2 bold d-block">Hele landet</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div header>
+      <h3>Header</h3>
+    </div>
+    <div subHeader>
+      <p>Sub header</p>
+    </div>
+    <div text>
+      <p>High level description of content</p>
+    </div>
+    <div content>
+      <div class="align-text-center background-data-green-blue-300 p-6" style="background-color: bisque">
+        <h4 class="h5 mb-5">Lorem ipsum fordeling</h4>
+        <div class="mt-3 row">
+          <div class="col-6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-percent-30 w-percent-md-70" viewBox="0 0 50 100">
+              <rect width="50" height="100" fill="#eefafa" />
+              <rect y="20" width="50" height="80" fill="#0868AC" />
+            </svg>
+            <span class="small-text mt-2 bold d-block">Copenhagen</span>
+          </div>
+          <div class="col-6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-percent-30 w-percent-md-70" viewBox="0 0 50 100">
+              <rect width="50" height="100" fill="#eefafa" />
+              <rect y="64" width="50" height="36" fill="#0868AC" />
+            </svg>
+            <span class="small-text mt-2 bold d-block">Avarage</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div actionButtons>
+      <button class="button button-secondary">Secondary button</button
+      ><button class="button button-tertiary">Tertiary button</button>
+    </div>
+    <div actionLinks>
+      <ul class="nobullet-list">
+        <li>
+          <a href="javascript:void(0);" class="default link state"> Link to something </a>
+        </li>
+        <li>
+          <a href="javascript:void(0);" class="icon-link"
+            >Link to something else<svg class="icon-svg" aria-hidden="true" focusable="false" tabindex="-1">
+              <use xlink:href="#open-in-new"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </fds-card>
+</div>
+
+```

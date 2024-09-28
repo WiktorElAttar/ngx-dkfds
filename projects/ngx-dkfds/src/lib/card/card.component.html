@@ -1,0 +1,33 @@
+<div class="card">
+  <div class="card-content">
+    <ng-content select="[contentTop]" />
+  </div>
+
+  <div class="card-header">
+    <div class="header-title">
+      <ng-content select="[header]" />
+    </div>
+
+    <div class="sub-header">
+      <ng-content select="[subHeader]" />
+    </div>
+  </div>
+
+  <div class="card-text">
+    <ng-content select="[text]" />
+  </div>
+
+  <div class="card-content">
+    <ng-content select="[content]" />
+  </div>
+
+  <div class="card-footer card-action">
+    <div class="action-buttons">
+      <ng-content select="[actionButtons]" />
+    </div>
+
+    <div class="action-links">
+      <ng-content select="[actionLinks]" />
+    </div>
+  </div>
+</div>
