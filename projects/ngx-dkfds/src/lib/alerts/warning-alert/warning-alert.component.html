@@ -1,0 +1,15 @@
+<div class="alert alert-warning" role="alert">
+  <svg class="icon-svg alert-icon" aria-label="Advarsel" focusable="false">
+    <use xlink:href="#report-problem"></use>
+  </svg>
+  <div class="alert-body">
+    <h2 class="alert-heading">{{ headerText() }}</h2>
+    <p class="alert-text">{{ alertText() }}</p>
+    @if (showCloseButton()) {
+      <button type="button" class="alert-close">
+        <svg class="icon-svg" focusable="false" aria-hidden="true"><use xlink:href="#close"></use></svg>
+        {{ closeButtonText() }}
+      </button>
+    }
+  </div>
+</div>
