@@ -1,23 +1,27 @@
-<fds-info-alert
+<fds-alert
+  [type]="'info'"
   [headerText]="'Info'"
   [alertText]="'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.'"
-  [showCloseButton]="true"
+  [canClose]="true"
 />
 
-<fds-success-alert
+<fds-alert
+  [type]="'success'"
   [headerText]="'Success'"
   [alertText]="'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.'"
-  [showCloseButton]="true"
+  [canClose]="true"
 />
 
-<fds-warning-alert
+<fds-alert
+  [type]="'warning'"
   [headerText]="'Warning'"
   [alertText]="'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.'"
-  [showCloseButton]="true"
+  [canClose]="true"
 />
 
-<fds-error-alert
-  [headerText]="'Warning'"
+<fds-alert
+  [type]="'error'"
+  [headerText]="'Error'"
   [alertText]="'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.'"
-  [showCloseButton]="true"
+  [canClose]="true"
 />
