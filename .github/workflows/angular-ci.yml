@@ -39,5 +39,12 @@ jobs:
     - name: Build ngx-dkfds
       run: npm run build ngx-dkfds
 
+    - name: NPM link ngx-dkfds
+      run: |
+        cd ./dist/ngx-dkfds
+        npm link
+        cd ../../projects/playground
+        npm link ngx-dkfds
+
     - name: Build playground
       run: npm run build playground
