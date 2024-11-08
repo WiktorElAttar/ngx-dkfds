@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "ng": "ng",
+    "build": "ng build",
     "serve": "ng serve playground",
     "watch": "ng build ngx-dkfds --watch --configuration development",
     "test": "ng test",

@@ -30,14 +30,21 @@ jobs:
     - name: NPM Install
       run: npm ci
 
-    - name: Lint
-      run: npm run lint
+    - name: Lint ngx-dkfds
+      run: npm run lint ngx-dkfds
 
-    - name: Test
-      run: npm run test:ci
+    - name: Test ngx-dkfds
+      run: npm run test:ci ngx-dkfds
 
     - name: Build ngx-dkfds
       run: npm run build ngx-dkfds
+
+    - name: NPM link ngx-dkfds
+      run: |
+        cd ./dist/ngx-dkfds
+        npm link
+        cd ../../projects/playground
+        npm link ngx-dkfds
 
     - name: Build playground
       run: npm run build playground
