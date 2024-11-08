@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { FdsIconsCollectionComponent } from '../../../ngx-dkfds/src/lib/icons/fds-icons-collection/fds-icons-collection.component';
+import { FdsIconsCollectionComponent } from 'ngx-dkfds';
 
 @Component({
   selector: 'app-root',

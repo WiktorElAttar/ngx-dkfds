@@ -67,7 +67,8 @@
               }
             ],
             "styles": ["projects/playground/src/styles.scss"],
-            "scripts": []
+            "scripts": [],
+            "preserveSymlinks": true
           },
           "configurations": {
             "production": {

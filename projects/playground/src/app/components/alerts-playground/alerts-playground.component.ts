@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { AlertComponent } from '../../../../../ngx-dkfds/src/lib/alerts/alert/alert.component';
+import { AlertComponent } from 'ngx-dkfds';
 
 @Component({
   selector: 'app-alerts-playground',
