@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
   templateUrl: './card.component.html',
   styleUrl: './card.component.scss',
 })
+// eslint-disable-next-line @typescript-eslint/no-extraneous-class
 export class CardComponent {}
