@@ -8,7 +8,7 @@
 
     Commit: `32384c3dd921de3c33191e37b459049220e7c98b`
 
-3. Run `ng generate application playground --style scss` command to create `playground` application.
+3. Run `ng generate application playground --style css` command to create `playground` application.
 
     Commit: `4829d83ec9cee6286432062b39714bae14c29f44`
 

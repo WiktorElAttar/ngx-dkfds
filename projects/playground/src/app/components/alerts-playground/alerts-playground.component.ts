@@ -5,7 +5,7 @@ import { AlertComponent } from '../../../../../ngx-dkfds/src/lib/alerts/alert/al
   selector: 'app-alerts-playground',
   standalone: true,
   templateUrl: './alerts-playground.component.html',
-  styleUrl: './alerts-playground.component.scss',
+  styleUrl: './alerts-playground.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [AlertComponent],
 })

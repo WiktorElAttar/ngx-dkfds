@@ -7,7 +7,7 @@ import { FdsIconsCollectionComponent } from '../../../ngx-dkfds/src/lib/icons/fd
   standalone: true,
   imports: [RouterOutlet, FdsIconsCollectionComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
   title = 'playground';

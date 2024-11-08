@@ -5,7 +5,7 @@ import { FdsIconName } from '../fds-icon-name.model';
   selector: 'fds-icon',
   standalone: true,
   templateUrl: './fds-icon.component.html',
-  styleUrl: './fds-icon.component.scss',
+  styleUrl: './fds-icon.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class FdsIconComponent {

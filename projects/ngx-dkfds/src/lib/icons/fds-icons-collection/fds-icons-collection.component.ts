@@ -4,7 +4,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   selector: 'fds-icons-collection',
   standalone: true,
   templateUrl: './fds-icons-collection.component.html',
-  styleUrl: './fds-icons-collection.component.scss',
+  styleUrl: './fds-icons-collection.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 
