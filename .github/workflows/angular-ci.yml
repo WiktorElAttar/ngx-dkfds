@@ -46,5 +46,11 @@ jobs:
         cd ../../projects/playground
         npm link ngx-dkfds
 
+    - name: Lint playground
+      run: npm run lint playground
+
+    - name: Test playground
+      run: npm run test:ci playground
+
     - name: Build playground
       run: npm run build playground
