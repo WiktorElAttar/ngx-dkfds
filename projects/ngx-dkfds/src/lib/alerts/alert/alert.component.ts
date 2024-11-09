@@ -23,6 +23,8 @@ export class AlertComponent {
   // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
   protected iconName = computed<FdsIconName>(() => this.typeToIconMap.get(this.type())!);
 
+  protected closed = false;
+
   private readonly typeToIconMap = new Map<FdsAlertType, FdsIconName>([
     ['error', 'highlight-off'],
     ['info', 'info'],
