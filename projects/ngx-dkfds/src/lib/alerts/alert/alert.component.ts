@@ -1,3 +1,4 @@
+import { NgClass } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, input } from '@angular/core';
 import { FdsIconName } from '../../icons/fds-icon-name.model';
 import { FdsIconComponent } from '../../icons/fds-icon/fds-icon.component';
@@ -9,7 +10,7 @@ import { FdsAlertType } from './alert-type.model';
   templateUrl: './alert.component.html',
   styleUrl: './alert.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [FdsIconComponent],
+  imports: [FdsIconComponent, NgClass],
 })
 export class AlertComponent {
   public type = input.required<FdsAlertType>();
