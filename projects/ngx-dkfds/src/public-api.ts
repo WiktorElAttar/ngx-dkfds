@@ -10,3 +10,6 @@ export * from './lib/icons/fds-icons-collection/fds-icons-collection.component';
 
 export * from './lib/alerts/alert/alert-type.model';
 export * from './lib/alerts/alert/alert.component';
+
+export * from './lib/badge/badge-type.model';
+export * from './lib/badge/badge.component';

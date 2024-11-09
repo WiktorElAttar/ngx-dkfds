@@ -1,5 +1,5 @@
 @if (!closed) {
-  <div [class]="'alert alert-' + type()" role="alert">
+  <div [ngClass]="['alert', 'alert-' + type()]" role="alert">
     <fds-icon [name]="iconName()" class="alert-icon" />
     <div class="alert-body">
       <h2 class="alert-heading">{{ headerText() }}</h2>
