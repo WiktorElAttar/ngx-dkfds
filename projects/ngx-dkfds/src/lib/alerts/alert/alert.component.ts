@@ -6,7 +6,6 @@ import { FdsAlertType } from './alert-type.model';
 
 @Component({
   selector: 'fds-alert',
-  standalone: true,
   templateUrl: './alert.component.html',
   styleUrl: './alert.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,

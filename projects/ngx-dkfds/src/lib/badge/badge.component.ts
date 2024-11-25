@@ -4,7 +4,6 @@ import { FdsBadgeType } from './badge-type.model';
 
 @Component({
   selector: 'fds-badge',
-  standalone: true,
   templateUrl: './badge.component.html',
   styleUrl: './badge.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,

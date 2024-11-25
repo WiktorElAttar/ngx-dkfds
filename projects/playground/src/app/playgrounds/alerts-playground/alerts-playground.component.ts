@@ -3,7 +3,6 @@ import { AlertComponent } from 'ngx-dkfds';
 
 @Component({
   selector: 'app-alerts-playground',
-  standalone: true,
   templateUrl: './alerts-playground.component.html',
   styleUrl: './alerts-playground.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,

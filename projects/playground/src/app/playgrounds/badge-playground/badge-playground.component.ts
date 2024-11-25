@@ -3,7 +3,6 @@ import { BadgeComponent } from '../../../../../ngx-dkfds/src/lib/badge/badge.com
 
 @Component({
   selector: 'app-badge-playground',
-  standalone: true,
   templateUrl: './badge-playground.component.html',
   styleUrl: './badge-playground.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,

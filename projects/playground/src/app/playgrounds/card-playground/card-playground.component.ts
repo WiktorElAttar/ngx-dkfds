@@ -3,7 +3,6 @@ import { CardComponent } from 'ngx-dkfds';
 
 @Component({
   selector: 'app-card-playground',
-  standalone: true,
   imports: [CardComponent],
   templateUrl: './card-playground.component.html',
   styleUrl: './card-playground.component.css',
