@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { BadgeComponent } from '../../../../../ngx-dkfds/src/lib/badge/badge.component';
+import { BadgeComponent } from 'ngx-dkfds';
 
 @Component({
   selector: 'app-badge-playground',
