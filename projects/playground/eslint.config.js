@@ -23,6 +23,15 @@ export default config(
           style: "kebab-case",
         },
       ],
+      "no-restricted-imports": [
+        "error",
+        {
+          "patterns": [{
+            "group": ["**/ngx-dkfds/**"],
+            "message": "Use import from 'ngx-dkfds' instead of using the file path."
+          }]
+        }
+      ]
     },
   },
   {
